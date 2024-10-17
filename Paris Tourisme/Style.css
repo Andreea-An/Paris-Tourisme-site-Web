@@ -1,0 +1,172 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(./pp1.svg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+.Logo a{
+    color: rgb(255, 255, 255);
+    padding: 0px 20px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 900;
+    text-shadow: rgba(0,0,0,0.7);
+
+}
+ul{
+    list-style: none;
+    float: right;
+    display: flex;
+    margin-top: 20px;
+
+}
+
+ul li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    text-transform: uppercase;
+    border: 1px solid transparent;
+    margin:10px;
+    font-weight: 500;
+    transition: 0.6s ease;
+}
+
+ul li a:hover{
+
+    background: rgb(255, 255, 255);
+    color:black;
+
+}
+
+ul i.active a{
+    background: rgb(255, 255, 255) ;
+    color: black;
+
+}
+
+.principale{
+    max-width: 114rem;
+    margin: 0 auto;
+}
+
+.titre{
+    width: 90%;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+
+.titre h1{
+    color:  rgb(255, 255, 255);
+    font-size: 80px;
+}
+
+.Button{
+    position: absolute;
+    top: 70%; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+.Button a{
+    color: white;
+    text-decoration: none;
+    border: 1px solid white;
+    padding: 10px 20px;
+}
+.bttn{
+    transition: 00.6s ease;
+    color: black;
+}
+
+.LALA{
+    width: 80%;
+    margin:auto;
+    padding-top: 100px;
+    float: left;
+}
+.LALA p{
+    width: 80%;
+    margin:auto;
+    font-size: 25px;
+    float: left;
+}
+
+h1{
+    font-size: 46px;
+    font-weight: 600;
+}
+.LALA1{
+    
+    height: 50vh;
+    float: right;
+
+
+}
+.LALA1 p{
+    color: black;
+    position: absolute;
+    font-size: 30px;
+    text-align: left;
+    
+}
+.LALA3{
+    padding-top: 100px;
+    height: 50vh;
+    font-size: larger;
+    text-align: center;
+
+}
+
+.Ap3{
+    float: right; 
+}
+
+.Z1{
+    margin-top: 100px;
+    text-align: center;
+
+  
+}
+.Z2{
+    margin-top: 100px;
+    text-align: center;
+
+  
+}.Z3{
+    margin-top: 100px;
+    text-align: center;
+
+  
+}.Z4{
+    margin-top: 100px;
+    text-align: center;
+
+  
+}
+.Z5{
+    margin-top: 100px;
+    text-align: center;
+
+  
+}
+
+.divFooter{
+    background: black;
+    min-height: 100px;
+    color: rgb(67, 62, 53);
+}
